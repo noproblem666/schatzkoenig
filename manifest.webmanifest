@@ -1,0 +1,12 @@
+{
+  "name": "Wer wird Schatzkönig?",
+  "short_name": "Schatzkönig",
+  "description": "Eine GPS-Schnitzeljagd mit Quizfragen",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101d3a",
+  "theme_color": "#101d3a",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
