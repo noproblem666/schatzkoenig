@@ -9,3 +9,10 @@
 .arrival-button{position:absolute;z-index:600;left:50%;top:50%;transform:translate(-50%,-50%);width:min(88%,360px);font-size:17px;white-space:normal;box-shadow:0 8px 35px #0009}
 .arrival-button:active{transform:translate(-50%,-49%)}
 @media(max-width:560px){.screen{padding:12px 0 20px}.status-row{margin:0 12px 9px}.location-card{height:calc(100dvh - 220px);min-height:420px;border-radius:0;border-left:0;border-right:0}.map-top-panel,.map-bottom-panel{left:10px;right:10px}.map-top-panel{top:10px}.map-bottom-panel{bottom:10px}}
+
+/* Deutliche Rückmeldungen im Elternbereich */
+.admin-message{display:none;margin:14px 0;padding:13px 15px;border-radius:12px;font-size:14px;font-weight:700;line-height:1.4}
+.admin-message.visible{display:block}
+.admin-message.success{color:#b9f5d7;background:#145b3b55;border:1px solid #55c99a99}
+.admin-message.error{color:#ffd0c8;background:#7a282855;border:1px solid #ff777799}
+.admin-message.info{color:#ffe6a1;background:#f3c96918;border:1px solid #f3c96966}
