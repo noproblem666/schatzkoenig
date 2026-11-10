@@ -23,3 +23,6 @@
 .pin-lock{font-size:42px}.pin-dialog h2{color:var(--gold2);margin:10px 0}.pin-dialog p{color:#d5deed;font-size:14px;line-height:1.5}
 #pinInput{display:block;width:100%;margin:20px 0;padding:15px;border:1px solid #f3c96988;border-radius:12px;background:#091326;color:#fff;text-align:center;font:700 26px/1.2 system-ui;letter-spacing:10px}
 .pin-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.pin-actions button{flex:1}
+
+/* Schatztruhen-Suchgebiet im Elternbereich und Finale */
+.admin-help{color:#d5deed;font-size:13px;line-height:1.45;margin:0 0 14px}.treasure-locate-field{justify-content:flex-end}#treasureAdminMap{height:250px;border-radius:13px;overflow:hidden;background:#263b5e;z-index:1;margin:8px 0 10px}.treasure-search{margin:18px 0 20px;padding:14px;border:1px solid #f3c96955;border-radius:16px;background:#0b173055}.treasure-instruction{margin:0 auto 12px!important;color:#ffe6a1!important;font-weight:700}.treasure-search #treasureMap{height:min(48vh,360px);min-height:250px;border-radius:13px;overflow:hidden;background:#263b5e;z-index:1}.treasure-distance{margin:12px auto 8px!important;font-weight:750;color:#fff!important}.treasure-legend{font-size:11px!important;color:#aab5ca!important;margin:0 auto!important}.treasure-legend span{display:inline-block;width:10px;height:10px;border-radius:50%;background:#68baff;margin-right:5px}
