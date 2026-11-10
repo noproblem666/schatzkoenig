@@ -16,3 +16,10 @@
 .admin-message.success{color:#b9f5d7;background:#145b3b55;border:1px solid #55c99a99}
 .admin-message.error{color:#ffd0c8;background:#7a282855;border:1px solid #ff777799}
 .admin-message.info{color:#ffe6a1;background:#f3c96918;border:1px solid #f3c96966}
+
+/* PIN-Schutz für den Elternbereich */
+.pin-overlay{position:fixed;inset:0;z-index:10000;display:grid;place-items:center;padding:20px;background:#071124ed;backdrop-filter:blur(8px)}
+.pin-dialog{width:min(100%,390px);padding:28px 22px;border:1px solid #f3c96988;border-radius:22px;background:linear-gradient(145deg,#1b3158,#101d3a);box-shadow:0 25px 80px #0009;text-align:center}
+.pin-lock{font-size:42px}.pin-dialog h2{color:var(--gold2);margin:10px 0}.pin-dialog p{color:#d5deed;font-size:14px;line-height:1.5}
+#pinInput{display:block;width:100%;margin:20px 0;padding:15px;border:1px solid #f3c96988;border-radius:12px;background:#091326;color:#fff;text-align:center;font:700 26px/1.2 system-ui;letter-spacing:10px}
+.pin-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.pin-actions button{flex:1}
