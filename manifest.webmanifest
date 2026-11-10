@@ -1,7 +1,7 @@
 {
-  "name": "Wer wird Schatzkönig?",
-  "short_name": "Schatzkönig",
-  "description": "Eine GPS-Schnitzeljagd mit Quizfragen",
+  "name": "Mattis große Schnitzeljagd – Wer wird Schatzkönig",
+  "short_name": "Mattis Schnitzeljagd",
+  "description": "Mattis große Schnitzeljagd – Wer wird Schatzkönig",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
