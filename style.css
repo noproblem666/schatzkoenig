@@ -26,3 +26,5 @@
 
 /* Schatztruhen-Suchgebiet im Elternbereich und Finale */
 .admin-help{color:#d5deed;font-size:13px;line-height:1.45;margin:0 0 14px}.treasure-locate-field{justify-content:flex-end}#treasureAdminMap{height:250px;border-radius:13px;overflow:hidden;background:#263b5e;z-index:1;margin:8px 0 10px}.treasure-search{margin:18px 0 20px;padding:14px;border:1px solid #f3c96955;border-radius:16px;background:#0b173055}.treasure-instruction{margin:0 auto 12px!important;color:#ffe6a1!important;font-weight:700}.treasure-search #treasureMap{height:min(48vh,360px);min-height:250px;border-radius:13px;overflow:hidden;background:#263b5e;z-index:1}.treasure-distance{margin:12px auto 8px!important;font-weight:750;color:#fff!important}.treasure-legend{font-size:11px!important;color:#aab5ca!important;margin:0 auto!important}.treasure-legend span{display:inline-block;width:10px;height:10px;border-radius:50%;background:#68baff;margin-right:5px}
+
+.treasure-admin-panel{border:1px solid #f3c96966;border-radius:16px;background:#ffffff09;padding:15px;margin:14px 0}.treasure-admin-panel h3{margin:0 0 12px;color:var(--gold2)}
