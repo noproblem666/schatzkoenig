@@ -60,7 +60,7 @@
     <section id="admin" class="screen">
       <div class="admin-heading"><div><p class="eyebrow">NUR FÜR ERWACHSENE</p><h1>Schatzsuche einrichten</h1></div><button id="adminClose" class="small-button" type="button">✕ Schließen</button></div>
       <div class="admin-notice">Die Einstellungen werden auf diesem iPhone in Safari gespeichert. Bitte vor Spielbeginn alle Stationen und Fragen prüfen.</div>
-      <div class="admin-toolbar"><button id="addStation" class="outline-button" type="button">＋ Station hinzufügen</button><button id="saveAll" class="gold-button compact" type="button">Einstellungen speichern</button></div>
+      <div class="admin-toolbar"><button id="addStation" class="outline-button" type="button">＋ Station hinzufügen</button><button id="saveAll" class="gold-button compact" type="button">Einstellungen speichern</button><button id="changePin" class="outline-button" type="button">🔒 PIN ändern</button></div>
       <div id="stationEditor" class="station-editor"></div>
       <div class="admin-bottom"><button id="resetProgress" class="outline-button" type="button">Spielstand zurücksetzen</button><button id="restoreLives" class="outline-button" type="button">3 Leben wiederherstellen</button></div>
       <div id="adminMessage" class="admin-message" role="status" aria-live="polite"></div>
@@ -68,6 +68,7 @@
     </section>
   </main>
   <footer>Ein Abenteuer voller Wissen, Mut und Teamgeist ✨</footer>
+  <div id="pinOverlay" class="pin-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="pinTitle"><div class="pin-dialog"><div class="pin-lock">🔒</div><h2 id="pinTitle">Elternbereich gesperrt</h2><p id="pinMessage">Bitte gib deine sechsstellige PIN ein.</p><input id="pinInput" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="one-time-code" aria-label="Sechsstellige Eltern-PIN"><div class="pin-actions"><button id="pinCancel" class="outline-button" type="button">Abbrechen</button><button id="pinSubmit" class="gold-button" type="button">Freischalten</button></div></div></div>
   <div id="confetti" class="confetti-layer" aria-hidden="true"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script src="app.js"></script>
