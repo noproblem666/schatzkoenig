@@ -35,12 +35,11 @@
         <div class="status-box"><small>JOKER</small><strong id="jokerStatus">🃏 verfügbar</strong></div>
         <div class="status-box"><small>STATION</small><strong id="stationCount">1 / 7</strong></div>
       </div>
-      <div class="location-card">
-        <div class="location-heading"><span>📍 NÄCHSTES ZIEL</span><span id="gpsState" class="gps-state">GPS wird gestartet …</span></div>
-        <h2 id="stationTitle">Geheime Station</h2>
-        <p id="distanceText">Standort wird ermittelt …</p>
+      <div id="locationStage" class="location-card">
+        <div class="map-top-panel"><div class="location-heading"><span>📍 NÄCHSTES ZIEL</span><span id="gpsState" class="gps-state">GPS wird gestartet …</span></div><h2 id="stationTitle">Geheime Station</h2></div>
         <div id="map" aria-label="Karte mit dem nächsten Wegpunkt"></div>
-        <div class="gps-foot"><span id="accuracyText">GPS-Genauigkeit: –</span><button id="retryGps" class="text-button" type="button">GPS aktualisieren</button></div>
+        <button id="arrivalButton" class="gold-button arrival-button hidden" type="button">🎉 Station erreicht – zur Frage</button>
+        <div class="map-bottom-panel"><p id="distanceText">Standort wird ermittelt …</p><div class="gps-foot"><span id="accuracyText">GPS-Genauigkeit: –</span><button id="retryGps" class="text-button" type="button">GPS aktualisieren</button></div></div>
       </div>
       <div id="questionCard" class="question-card hidden">
         <p class="eyebrow">DIE MILLIONENFRAGE</p>
